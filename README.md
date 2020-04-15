@@ -16,3 +16,4 @@
 | ------------ | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
 | 环境搭建     | https://gitee.com/lagouedu/Basic-document/blob/master/document/JDK11.md | 程序员开发协作工具使用 | 1、下载安装JDK 2、环境变量配置                               |
 | Git使用      | <https://gitee.com/lagouedu/Basic-document/blob/master/document/Git.md> | 程序员开发协作工具使用 | 1、下载安装 2、命令行使用（创建添加修改上传更新解决冲突） 3、远程操作（上传下载） 4、idea中使用git |
+| IDEA工具使用 | https://gitee.com/lagouedu/Basic-document/blob/master/document/IDEA.md | 程序员开发协作工具使用 | 1、下载安装idea 2、idea构建maven分模块项目 3、集成mave、git 4、常用快捷 |

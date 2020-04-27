@@ -42,14 +42,16 @@ public class ArrayScoreTest {
 		System.out.println("本班级学生的总分是：" + sum + "，平均分是：" + avg);
 		
 		System.out.println("----------------------------------------------");
-		// 6.可以使用数组工具类实现数组中元素的排序
-		System.out.println(Arrays.toString(scores));
+		// 6.查找本班所有学生考试成绩中的最低分和最高分并打印出来
+		System.out.println("原始的考试成绩是：" + Arrays.toString(scores));
+		// 调用工具类中的排序方法对所有考试成绩进行从小到大的排序
 		Arrays.sort(scores);
-		System.out.println(Arrays.toString(scores));
-		// 打印最低分和最高分
-		System.out.println("最低分是：" + scores[0] + "，最高分是：" + scores[1]);
+		System.out.println("排序后的考试成绩是：" + Arrays.toString(scores));
+		System.out.println("最低分是：" + scores[0] + "，最高分是：" + scores[num-1]);
 		
-		// 7.查找数组中是否存在59分的小伙伴，若存在则打印下标
-		System.out.println("被查找分值所在的数组下标是：" + Arrays.binarySearch(scores, 59));
+		System.out.println("----------------------------------------------");
+		// 从数组中查找指定元素所在的下标位置
+		System.out.println("59分在数组中的下标位置是：" + Arrays.binarySearch(scores, 59));
+		System.out.println("60分在数组中的下标位置是：" + Arrays.binarySearch(scores, 60));
 	}
 }
